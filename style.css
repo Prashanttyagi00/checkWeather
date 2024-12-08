@@ -1,0 +1,18 @@
+.fixed-height-card {
+    height: 300px; /* Set the fixed height */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    text-align: center; /* Optional: Centers the text inside */
+  }
+  
+  .card-body ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Removes default list styling */
+  }
+  
